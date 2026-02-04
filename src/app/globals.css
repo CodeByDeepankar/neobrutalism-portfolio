@@ -11,19 +11,13 @@
   --accent-color: #0000ff;
   --dark-color: #000;
   --light-color: #fff;
-  --card-bg: #ffffff;
-  --card-text: #000000;
-  --card-border: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 30, 30, 30;
-    --background-end-rgb: 20, 20, 20;
-    --card-bg: #2d2d2d;
-    --card-text: #e0e0e0;
-    --card-border: #ffffff;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
@@ -81,17 +75,15 @@ body {
 
 .neobrutalist-card {
   position: relative;
-  background-color: var(--card-bg);
-  color: var(--card-text);
-  border: 3px solid var(--card-border);
+  background-color: var(--light-color);
+  border: 3px solid var(--dark-color);
   padding: 24px;
   margin-bottom: 24px;
 }
 
 .neobrutalist-input {
-  background-color: var(--card-bg);
-  color: var(--card-text);
-  border: 3px solid var(--card-border);
+  background-color: var(--light-color);
+  border: 3px solid var(--dark-color);
   padding: 12px;
   font-family: 'Courier New', monospace;
   outline: none;
