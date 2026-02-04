@@ -13,17 +13,13 @@ const About = () => {
           <div className="md:w-2/3">
             <h3 className="neobrutalist-h3 mb-4">MY STORY</h3>
             <p className="mb-4">
-              I'm a passionate developer and designer with expertise in creating 
-              digital experiences that combine functionality with striking aesthetics.
+              I'm Deepankar, a fullstack developer based in New Delhi, India. I specialize in building modern web applications that combine beautiful design with robust functionality.
             </p>
             <p className="mb-4">
-              My journey began with traditional graphic design and evolved into 
-              full-stack development, allowing me to bridge the gap between visual 
-              creativity and technical implementation.
+              With expertise spanning both frontend and backend technologies, I create seamless digital experiences that solve real-world problems. I'm passionate about clean code, user experience, and staying current with emerging technologies.
             </p>
             <p>
-              I specialize in neobrutalist design principles, embracing raw, honest 
-              interfaces that prioritize usability while making bold visual statements.
+              My approach combines technical excellence with creative problem-solving. Whether it's building scalable APIs, crafting intuitive interfaces, or optimizing performance, I'm committed to delivering high-quality solutions.
             </p>
           </div>
         </div>
@@ -38,15 +34,15 @@ const About = () => {
               <span>★★★★★</span>
             </li>
             <li className="flex justify-between border-b-2 border-dashed border-black pb-2">
-              <span>UI/UX Design</span>
-              <span>★★★★☆</span>
-            </li>
-            <li className="flex justify-between border-b-2 border-dashed border-black pb-2">
               <span>Backend Development</span>
               <span>★★★★☆</span>
             </li>
             <li className="flex justify-between border-b-2 border-dashed border-black pb-2">
-              <span>Database Management</span>
+              <span>DevOps & Deployment</span>
+              <span>★★★★☆</span>
+            </li>
+            <li className="flex justify-between border-b-2 border-dashed border-black pb-2">
+              <span>UI/UX Design</span>
               <span>★★★☆☆</span>
             </li>
           </ul>
@@ -55,7 +51,7 @@ const About = () => {
         <div className="neobrutalist-card border-4 border-black p-6">
           <h3 className="neobrutalist-h3 mb-4">TOOLS & TECHNOLOGIES</h3>
           <div className="flex flex-wrap gap-2">
-            {['React', 'Next.js', 'TypeScript', 'Node.js', 'CSS', 'Tailwind', 'Figma', 'Git'].map((tech) => (
+            {['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vue.js', 'Three.js', 'GSAP', 'Node.js', 'Express', 'Python', 'Django', 'PostgreSQL', 'MongoDB', 'Docker', 'AWS', 'Git', 'Figma', 'Postman'].map((tech) => (
               <span 
                 key={tech} 
                 className="neobrutalist-btn text-sm px-3 py-1"

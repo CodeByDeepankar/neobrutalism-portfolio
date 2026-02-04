@@ -9,39 +9,15 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-commerce Platform',
-      description: 'A full-featured online shopping platform with payment integration.',
-      technologies: ['React', 'Node.js', 'MongoDB'],
+      title: 'GYANARATNA',
+      description: 'Full-Stack Development (Hackathon-winning project)',
+      technologies: ['Full-Stack Development'],
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'Productivity application for managing personal and team tasks.',
-      technologies: ['TypeScript', 'Firebase', 'Tailwind CSS'],
-    },
-    {
-      id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather information with forecasting features.',
-      technologies: ['JavaScript', 'API Integration', 'Chart.js'],
-    },
-    {
-      id: 4,
-      title: 'Social Media Analytics',
-      description: 'Dashboard for tracking social media metrics and engagement.',
-      technologies: ['Python', 'React', 'PostgreSQL'],
-    },
-    {
-      id: 5,
-      title: 'Fitness Tracker',
-      description: 'Mobile-first application for tracking workouts and nutrition.',
-      technologies: ['React Native', 'Redux', 'GraphQL'],
-    },
-    {
-      id: 6,
-      title: 'Portfolio Website',
-      description: 'Custom portfolio site with neobrutalist design principles.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+      title: 'NAGARAMITRA',
+      description: 'Full-Stack Development project showcasing modern web technologies.',
+      technologies: ['Full-Stack Development'],
     },
   ];
 
@@ -65,7 +41,12 @@ const Projects = () => {
                 </span>
               ))}
             </div>
-            <button className="neobrutalist-btn mt-auto">VIEW PROJECT</button>
+            <a 
+              href={project.title === 'GYANARATNA' ? 'https://gyanaratna.vercel.app/' : project.title === 'NAGARAMITRA' ? 'https://nagarmitra-eight.vercel.app/' : '#'}
+              className="neobrutalist-btn mt-auto"
+            >
+              VIEW PROJECT
+            </a>
           </div>
         ))}
       </div>

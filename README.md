@@ -1,24 +1,31 @@
-# Neobrutalism Portfolio
+# Deepankar Sahoo - Portfolio
 
-A portfolio website built with Next.js featuring a distinctive neobrutalist design aesthetic.
+A modern portfolio website featuring neobrutalist design principles built with Next.js, TypeScript, and Tailwind CSS. This portfolio showcases my work as a fullstack developer specializing in creating digital experiences that combine beautiful design with robust functionality.
+
+## About
+
+I'm Deepankar, a fullstack developer based in New Delhi, India. I specialize in building modern web applications that combine beautiful design with robust functionality.
+
+With expertise spanning both frontend and backend technologies, I create seamless digital experiences that solve real-world problems. I'm passionate about clean code, user experience, and staying current with emerging technologies.
+
+My approach combines technical excellence with creative problem-solving. Whether it's building scalable APIs, crafting intuitive interfaces, or optimizing performance, I'm committed to delivering high-quality solutions.
 
 ## Features
 
-- Neobrutalist design principles with bold, raw interfaces
-- Responsive layout that works on all devices
-- Interactive navigation with animated elements
-- Project showcase section
-- Contact form with validation
-- Modern tech stack using Next.js 14 with App Router
+- **Neobrutalist Design**: Bold, expressive visuals with intentional imperfections that create character
+- **Responsive Layout**: Fully responsive design that works on all device sizes
+- **Interactive Components**: Engaging UI with hover effects and animations
+- **Modern Tech Stack**: Built with Next.js 14, TypeScript, and Tailwind CSS
+- **Contact Form**: Functional contact form with API integration
+- **Project Showcase**: Dedicated section for highlighting key projects
 
-## Design Elements
+## Technologies Used
 
-- Thick black borders around elements
-- Bold typography with uppercase text
-- High contrast color scheme
-- Intentional "rough" aesthetics
-- Layered elements with drop shadows
-- Animated interactions
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- React Hooks
+- Modern CSS (Flexbox/Grid)
 
 ## Getting Started
 

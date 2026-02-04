@@ -39,8 +39,8 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="neobrutalist bg-black text-white py-8 border-t-4 border-white">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-4">© {new Date().getFullYear()} DEEPANKAR'S PORTFOLIO. ALL RIGHTS RESERVED.</p>
-          <p>DESIGNED & BUILT WITH NEOBRUTALISM PRINCIPLES</p>
+          <p className="mb-4">© {new Date().getFullYear()} DEEPANKAR SAHOO. ALL RIGHTS RESERVED.</p>
+          <p>SOFTWARE ENGINEER & FULLSTACK DEVELOPER</p>
         </div>
       </footer>
     </div>

@@ -106,7 +106,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold mb-1">EMAIL</h4>
-                <p>hello@example.com</p>
+                <p>codebydeepankar@gmail.com</p>
               </div>
             </div>
             
@@ -116,7 +116,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold mb-1">PHONE</h4>
-                <p>+1 (123) 456-7890</p>
+                <p>+91 XXXXXXXXXX</p>
               </div>
             </div>
             
@@ -126,14 +126,14 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold mb-1">LOCATION</h4>
-                <p>San Francisco, CA</p>
+                <p>New Delhi, India</p>
               </div>
             </div>
             
             <div className="pt-6">
               <h4 className="font-bold mb-4">SOCIAL LINKS</h4>
               <div className="flex space-x-4">
-                {['GitHub', 'LinkedIn', 'Twitter', 'Dribbble'].map((platform) => (
+                {['GitHub', 'LinkedIn', 'Twitter', 'Instagram'].map((platform) => (
                   <a 
                     key={platform} 
                     href="#" 
