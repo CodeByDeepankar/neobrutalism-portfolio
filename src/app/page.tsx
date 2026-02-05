@@ -13,16 +13,16 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="neobrutalist py-8 border-b-4 border-black">
+      <header className="neobrutalist py-6 sm:py-8 border-b-4 border-black">
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center">
-            <h1 className="neobrutalist-h1 flicker-animation">PORTFOLIO</h1>
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+            <h1 className="neobrutalist-h1 flicker-animation text-center sm:text-left">PORTFOLIO</h1>
             <Navigation activeSection={activeSection} setActiveSection={setActiveSection} />
           </div>
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-12">
+      <main className="container mx-auto px-4 py-8 sm:py-12">
         {/* Hero Section */}
         {activeSection === 'home' && <Hero />}
 
@@ -37,10 +37,10 @@ export default function Portfolio() {
       </main>
 
       {/* Footer */}
-      <footer className="neobrutalist bg-black text-white py-8 border-t-4 border-white">
+      <footer className="neobrutalist bg-black text-white py-6 sm:py-8 border-t-4 border-white">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-4">© {new Date().getFullYear()} DEEPANKAR SAHOO. ALL RIGHTS RESERVED.</p>
-          <p>SOFTWARE ENGINEER & FULLSTACK DEVELOPER</p>
+          <p className="mb-2 sm:mb-4">© {new Date().getFullYear()} DEEPANKAR SAHOO. ALL RIGHTS RESERVED.</p>
+          <p className="text-sm sm:text-base">SOFTWARE ENGINEER & FULLSTACK DEVELOPER</p>
         </div>
       </footer>
     </div>
